@@ -26,17 +26,20 @@ class PhotosViewController: UIViewController {
         let task = session.dataTask(with: url) { (data, response, error) in
             if let error = error {
                 print(error.localizedDescription)
-            } else if let data = data,
-                let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as? [String: Any] {
-                //print(dataDictionary)
+            }
+            else if let data = data {
+                let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
+                print(dataDictionary)
                 
                 let responseDictionary = dataDictionary["response"] as! [String: Any]
+                self.posts = responseDictionary["posts"] as! [[String: Any]]
                 print(responseDictionary)
                 // TODO: Reload the table view
             }
         }
         task.resume()
-
+        
+        
     
     //The Bracket below closes the viewDidLoad function
     }
