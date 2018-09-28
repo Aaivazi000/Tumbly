@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		121925A6A4D98FAC4E51FEC5 /* Pods_tumbly.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56276DFC97EAD3DFE98E9A42 /* Pods_tumbly.framework */; };
+		4A01366E7921CEA064B065ED /* Pods_tumblyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2FFBE0B76B308EE4E7AFD6 /* Pods_tumblyTests.framework */; };
+		DA37B4273257BB5C1C2D8D5B /* Pods_tumblyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1FF9B39C4579B127962DD2 /* Pods_tumblyUITests.framework */; };
 		E60DC32B215EAA5A00D8C64B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60DC32A215EAA5A00D8C64B /* AppDelegate.swift */; };
-		E60DC32D215EAA5A00D8C64B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60DC32C215EAA5A00D8C64B /* ViewController.swift */; };
 		E60DC330215EAA5A00D8C64B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60DC32E215EAA5A00D8C64B /* Main.storyboard */; };
-		E60DC332215EAA5A00D8C64B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60DC331215EAA5A00D8C64B /* Assets.xcassets */; };
 		E60DC335215EAA5A00D8C64B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E60DC333215EAA5A00D8C64B /* LaunchScreen.storyboard */; };
 		E60DC340215EAA5B00D8C64B /* tumblyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60DC33F215EAA5B00D8C64B /* tumblyTests.swift */; };
 		E60DC34B215EAA5B00D8C64B /* tumblyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60DC34A215EAA5B00D8C64B /* tumblyUITests.swift */; };
+		E60DC35E215EBC6F00D8C64B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60DC35D215EBC6F00D8C64B /* Assets.xcassets */; };
+		E60DC360215EBFA800D8C64B /* PhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60DC35F215EBFA800D8C64B /* PhotosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +37,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		199C20720251F6C0B1FE2E2B /* Pods-tumblyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumblyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tumblyTests/Pods-tumblyTests.release.xcconfig"; sourceTree = "<group>"; };
+		3A2FFBE0B76B308EE4E7AFD6 /* Pods_tumblyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tumblyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B1FF9B39C4579B127962DD2 /* Pods_tumblyUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tumblyUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D96C9B977A5044BA8B26A6A /* Pods-tumblyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumblyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-tumblyUITests/Pods-tumblyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		557BD26C15807CFFC3B64C7E /* Pods-tumbly.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumbly.release.xcconfig"; path = "Pods/Target Support Files/Pods-tumbly/Pods-tumbly.release.xcconfig"; sourceTree = "<group>"; };
+		56276DFC97EAD3DFE98E9A42 /* Pods_tumbly.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_tumbly.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		630942F8B5023919341D226D /* Pods-tumbly.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumbly.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tumbly/Pods-tumbly.debug.xcconfig"; sourceTree = "<group>"; };
+		7EA0531856E774C8EE7423B7 /* Pods-tumblyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumblyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tumblyTests/Pods-tumblyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A63B3587DF49866A962A057A /* Pods-tumblyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tumblyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tumblyUITests/Pods-tumblyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E60DC327215EAA5A00D8C64B /* tumbly.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tumbly.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60DC32A215EAA5A00D8C64B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E60DC32C215EAA5A00D8C64B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E60DC32F215EAA5A00D8C64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		E60DC331215EAA5A00D8C64B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E60DC334215EAA5A00D8C64B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E60DC336215EAA5A00D8C64B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E60DC33B215EAA5A00D8C64B /* tumblyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tumblyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +57,8 @@
 		E60DC346215EAA5B00D8C64B /* tumblyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tumblyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E60DC34A215EAA5B00D8C64B /* tumblyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tumblyUITests.swift; sourceTree = "<group>"; };
 		E60DC34C215EAA5B00D8C64B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E60DC35D215EBC6F00D8C64B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
+		E60DC35F215EBFA800D8C64B /* PhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				121925A6A4D98FAC4E51FEC5 /* Pods_tumbly.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A01366E7921CEA064B065ED /* Pods_tumblyTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +82,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA37B4273257BB5C1C2D8D5B /* Pods_tumblyUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		403645F743DCE97AB6A20C03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				56276DFC97EAD3DFE98E9A42 /* Pods_tumbly.framework */,
+				3A2FFBE0B76B308EE4E7AFD6 /* Pods_tumblyTests.framework */,
+				4B1FF9B39C4579B127962DD2 /* Pods_tumblyUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9EBC450DF2E6154A1BE3A7AA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				630942F8B5023919341D226D /* Pods-tumbly.debug.xcconfig */,
+				557BD26C15807CFFC3B64C7E /* Pods-tumbly.release.xcconfig */,
+				7EA0531856E774C8EE7423B7 /* Pods-tumblyTests.debug.xcconfig */,
+				199C20720251F6C0B1FE2E2B /* Pods-tumblyTests.release.xcconfig */,
+				A63B3587DF49866A962A057A /* Pods-tumblyUITests.debug.xcconfig */,
+				4D96C9B977A5044BA8B26A6A /* Pods-tumblyUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E60DC31E215EAA5A00D8C64B = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +119,8 @@
 				E60DC33E215EAA5B00D8C64B /* tumblyTests */,
 				E60DC349215EAA5B00D8C64B /* tumblyUITests */,
 				E60DC328215EAA5A00D8C64B /* Products */,
+				9EBC450DF2E6154A1BE3A7AA /* Pods */,
+				403645F743DCE97AB6A20C03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,10 +137,10 @@
 		E60DC329215EAA5A00D8C64B /* tumbly */ = {
 			isa = PBXGroup;
 			children = (
+				E60DC35D215EBC6F00D8C64B /* Assets.xcassets */,
 				E60DC32A215EAA5A00D8C64B /* AppDelegate.swift */,
-				E60DC32C215EAA5A00D8C64B /* ViewController.swift */,
+				E60DC35F215EBFA800D8C64B /* PhotosViewController.swift */,
 				E60DC32E215EAA5A00D8C64B /* Main.storyboard */,
-				E60DC331215EAA5A00D8C64B /* Assets.xcassets */,
 				E60DC333215EAA5A00D8C64B /* LaunchScreen.storyboard */,
 				E60DC336215EAA5A00D8C64B /* Info.plist */,
 			);
@@ -132,9 +172,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E60DC34F215EAA5B00D8C64B /* Build configuration list for PBXNativeTarget "tumbly" */;
 			buildPhases = (
+				DCE91654375669D689ED8E73 /* [CP] Check Pods Manifest.lock */,
 				E60DC323215EAA5A00D8C64B /* Sources */,
 				E60DC324215EAA5A00D8C64B /* Frameworks */,
 				E60DC325215EAA5A00D8C64B /* Resources */,
+				699D75DA885AE6B8EDC0052F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +191,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E60DC352215EAA5B00D8C64B /* Build configuration list for PBXNativeTarget "tumblyTests" */;
 			buildPhases = (
+				9D687AD85572A81267063BF9 /* [CP] Check Pods Manifest.lock */,
 				E60DC337215EAA5A00D8C64B /* Sources */,
 				E60DC338215EAA5A00D8C64B /* Frameworks */,
 				E60DC339215EAA5A00D8C64B /* Resources */,
@@ -167,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E60DC355215EAA5B00D8C64B /* Build configuration list for PBXNativeTarget "tumblyUITests" */;
 			buildPhases = (
+				40A9CF63488036A2651B4931 /* [CP] Check Pods Manifest.lock */,
 				E60DC342215EAA5B00D8C64B /* Sources */,
 				E60DC343215EAA5B00D8C64B /* Frameworks */,
 				E60DC344215EAA5B00D8C64B /* Resources */,
@@ -230,7 +274,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E60DC335215EAA5A00D8C64B /* LaunchScreen.storyboard in Resources */,
-				E60DC332215EAA5A00D8C64B /* Assets.xcassets in Resources */,
+				E60DC35E215EBC6F00D8C64B /* Assets.xcassets in Resources */,
 				E60DC330215EAA5A00D8C64B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +295,106 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		40A9CF63488036A2651B4931 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tumblyUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		699D75DA885AE6B8EDC0052F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-tumbly/Pods-tumbly-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tumbly/Pods-tumbly-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D687AD85572A81267063BF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tumblyTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DCE91654375669D689ED8E73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-tumbly-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E60DC323215EAA5A00D8C64B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E60DC32D215EAA5A00D8C64B /* ViewController.swift in Sources */,
 				E60DC32B215EAA5A00D8C64B /* AppDelegate.swift in Sources */,
+				E60DC360215EBFA800D8C64B /* PhotosViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,6 +567,7 @@
 		};
 		E60DC350215EAA5B00D8C64B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 630942F8B5023919341D226D /* Pods-tumbly.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +586,7 @@
 		};
 		E60DC351215EAA5B00D8C64B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 557BD26C15807CFFC3B64C7E /* Pods-tumbly.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +605,7 @@
 		};
 		E60DC353215EAA5B00D8C64B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EA0531856E774C8EE7423B7 /* Pods-tumblyTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +627,7 @@
 		};
 		E60DC354215EAA5B00D8C64B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 199C20720251F6C0B1FE2E2B /* Pods-tumblyTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +649,7 @@
 		};
 		E60DC356215EAA5B00D8C64B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A63B3587DF49866A962A057A /* Pods-tumblyUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +670,7 @@
 		};
 		E60DC357215EAA5B00D8C64B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D96C9B977A5044BA8B26A6A /* Pods-tumblyUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
