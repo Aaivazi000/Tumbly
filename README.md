@@ -1,42 +1,50 @@
-# Lab 1 - *Name of App Here*
+# Lab 1 - *Tumbly*
+
+! [] (Tumbly.jpg )
 
 **Tumbly** is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [ ] User can scroll through a feed of images returned from the Tumblr API (5pts)
+- [x] User can scroll through a feed of images returned from the Tumblr API (5pts)
 
 The following **stretch** user stories are implemented:
 
-- [ ] User sees an alert when there's a networking error (+1pt)
+- [x] User sees an alert when there's a networking error (+1pt)
 - [ ] While poster is being fetched, user see's a placeholder image (+1pt)
 - [ ] User sees image transition for images coming from network, not when it is loaded from cache (+1pt)
 - [ ] Customize the selection effect of the cell (+1pt)
 
 The following **additional** user stories are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality! (+1-3pts)
+- [x] Tumbly also fetches the summaries of each post and places the first 2 lines in a label below the image. The pupose of this feature is to give the users some context to the image they are viewing. (+1-3pts)
+
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. How to implement the pull to refresh so the tableview does not move behind the refresh symbol while it is refreshing.
+2. Placing a title at the top of the ViewController without having to add a Navigation controller.
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+#### Tumbly Walkthrough with Network Connection
+<img src='https://i.imgur.com/ILishV7.gif' />
+
+#### Tumbly Walkthrough without Network Connection
+<img src='https://i.imgur.com/NiKjzLI.gif' />
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+* I cannot seem to place the refresh control in a way where the table view does not interfere. After refreshing the tableview will come back to the top of the UI and move behind the refresh control.
 
 ## License
 
