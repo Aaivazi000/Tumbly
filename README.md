@@ -1,6 +1,7 @@
 # Lab 1 - *Tumbly*
 
-! [] (Tumbly.jpg )
+! [] (https://github.com/Aaivazi000/Tumbly/blob/master/Tumbly.jpg)
+![Logo](https://raw.githubusercontent.com/Aaivazi000/Tumbly/blob/master/Tumbly.jpg)
 
 **Tumbly** is a photo browsing app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
 
