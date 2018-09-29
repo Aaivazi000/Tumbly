@@ -22,6 +22,8 @@ The following **stretch** user stories are implemented:
 The following **additional** user stories are implemented:
 
 - [x] Tumbly also fetches the summaries of each post and places the first 2 lines in a label below the image. The pupose of this feature is to give the users some context to the image they are viewing. (+1-3pts)
+- [x] Not sure if this counts as a user story but I designed my own app logo (image at top of readme) and matching Launch screen.
+  - Matching Launch Screen ![]()
 
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
