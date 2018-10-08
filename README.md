@@ -71,20 +71,21 @@ limitations under the License.
 
 **Tumbly** is a photo browsing app app using the [The Tumblr API](https://www.tumblr.com/docs/en/api/v2#posts).
 
-Time spent: **X** hours spent in total
+Time spent: **2** hours spent in total
 
 ## User Stories
 
 The following **required** user stories are complete:
 
-- [ ] User can tab an image to view a larger image in a detail view (5pts)
+- [x] User can tab an image to view a larger image in a detail view (5pts)
 
 The following **stretch** user stories are implemented:
 
+- No stretch stories implemented.
 
 The following **additional** user stories are implemented:
 
-- [ ] User can see the story of the photo in the detail view.
+- [x] User can see the caption of the photo in the detail view. The caption also shows where the photo was taken (at the end). The purpose of this feature is to build upon the use of the summary text shown in each photo in the tableview. On the home screen the user may read the summary and take further interest in the photo. Then the user will click on the cell to learn more about the photo in the detail view. Once in the detail view the user can read the full story of the photo.
 
 Please list areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
@@ -94,13 +95,12 @@ Please list areas of the assignment you'd like to **discuss further with your pe
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/qa2hisg.gif' title='Tumbly Video Walkthrough Part 2' width='' alt='Video Walkthrough' />
 
-GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+In every caption there is some HTML text that I could not remove using the replaceOccurances method because the text changed based on the caption. I believe this can be handled using string parsing, however I do not know how parsing is done in Swift.
 
 ## License
 
