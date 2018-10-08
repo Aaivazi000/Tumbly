@@ -95,8 +95,9 @@ Please list areas of the assignment you'd like to **discuss further with your pe
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://i.imgur.com/qa2hisg.gif' title='Tumbly Video Walkthrough Part 2' width='' alt='Video Walkthrough' />
+<img src='https://i.imgur.com/qa2hisg.gif' />
 
+If the gif does not load due to length restictions you can click on [this link](https://imgur.com/qa2hisg) to view the walkthrough.
 
 ## Notes
 
