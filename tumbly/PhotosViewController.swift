@@ -105,6 +105,14 @@ class PhotosViewController: UIViewController, UITableViewDataSource {
         return cell
         }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let cell = sender as! UITableViewCell
+        if let indexPath = tableView.indexPath(for: cell) {
+            let post = posts[indexPath.row]
+            let detailphotoViewController = segue.destination as! DetailPhotoViewController
+            detailphotoViewController.detailposts = post
+        }
+    }
     
 //The Bracket below is the closing bracket of the View Controller
 }
