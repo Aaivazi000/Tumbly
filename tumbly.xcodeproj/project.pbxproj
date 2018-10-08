@@ -19,6 +19,7 @@
 		E60DC363215EEF1700D8C64B /* postphotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60DC362215EEF1700D8C64B /* postphotoCell.swift */; };
 		E60DC365215EF8D900D8C64B /* ConnectionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = E60DC364215EF8D900D8C64B /* ConnectionCheck.swift */; };
 		E659B86B216B000B0042CF0B /* DetailPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E659B86A216B000B0042CF0B /* DetailPhotoViewController.swift */; };
+		E659B86C216B116D0042CF0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E60DC361215EE7E700D8C64B /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -282,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E60DC335215EAA5A00D8C64B /* LaunchScreen.storyboard in Resources */,
+				E659B86C216B116D0042CF0B /* Assets.xcassets in Resources */,
 				E60DC330215EAA5A00D8C64B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
